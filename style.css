@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;  
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: aquamarine !important;
+}
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #fff;
+}
+#navbarSupportedContent button{
+    background: green;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* home */
+
+#home{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4)), url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home p{
+    font-size: 18px;
+    color: white;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background: green !important;
+    color: white !important;
+
+}
+/* about*/
+
+#about .container-fluid img{
+    margin: 80px;
+    width: 300px;
+    height: 500px;
+
+}
+#about{
+    background-color: burlywood;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#products img{
+    height: 300px;
+}
+
+#products{
+    background: #e5e5e5;
+}
+#products h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.card{
+    
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3);
+    align-items: center;
+}
+
+#contact img{
+    width: 300px;
+    height: 300px;
+}
+
+/* contact*/
+
+#contact img{
+    height: 100%;
+}
+
+.box{
+    background: pink;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,.8);
+    color: white;
+    margin-top: -30px;
+    text-align: center;
+
+}
